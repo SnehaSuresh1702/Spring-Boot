@@ -1,0 +1,13 @@
+create table Ticket(
+	ticket_id tinyint primary key,
+    category_id tinyint,
+    subcategory_id tinyint,
+    assignee_id tinyint,
+    reporter_id tinyint,
+    subject varchar(255),
+    description varchar(255),
+    status_id tinyint,
+    priority_id tinyint,
+	create_datetime datetime,
+    last_modified_datetime datetime
+);
